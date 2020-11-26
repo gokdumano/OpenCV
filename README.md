@@ -1,2 +1,2 @@
 # Python
-OpenCV ağırlıklı, Python dilinde yazılmış örnek çalışmalar
+OpenCV ağırlıklı, Python dilinde yazılmış örnek çalışmalarım.
