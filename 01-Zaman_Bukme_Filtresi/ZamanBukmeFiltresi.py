@@ -12,7 +12,7 @@ if ONLINE:
 
 	COLOR, INDX 	= (0, 55,255), 0
 	CANVAS, THICC 	= np.zeros_like(FRAME), 3
-while True:
+while VIDEO.isOpened():
 	ONLINE, FRAME = VIDEO.read()
 	if INDX < imW:
 		CANVAS[:,INDX,:] = FRAME[:,INDX,:]
